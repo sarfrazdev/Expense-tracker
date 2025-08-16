@@ -10,11 +10,12 @@ import { LuHandCoins ,LuWalletMinimal } from 'react-icons/lu'
 import { addThousandsSeprator } from '../utils/helper'
 import RecentTransactions from '../components/layouts/RecentTransactions'
 import TransactionInfoCard from '../components/layouts/TransactionInfoCard'
-import ExpenseTransactions from "../components/ExpenseTransactions"
-import FinanceOverview  from "./FinanceOverview "
-import Last30DaysExpenses from '../components/last30DaysExpenses'
-import RecentIncomeWithChart from "./RecentIncomeWithChart"
-import RecentIncome from "./RecentIncome"
+import ExpenseTransactions from "../components/ExpenseTransactions";
+import FinanceOverview from "./FinanceOverview";
+import Last30DaysExpenses from "../components/Last30DaysExpenses";
+import RecentIncomeWithChart from "./RecentIncomeWithChart";
+import RecentIncome from "./RecentIncome";
+
 
 const Home = () => {
   useUserAuth();
